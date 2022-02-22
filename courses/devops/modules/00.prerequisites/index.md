@@ -4,6 +4,15 @@ duration: 1-3 hours
 
 # Prerequisites for DevOps course
 
+## Software presets
+
+Install the following software on your computer:
+
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Node.js](https://nodejs.org/en/download/)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Docker](https://docs.docker.com/get-docker/)
+
 ## Terminal
 
 * Most useful developer tool
