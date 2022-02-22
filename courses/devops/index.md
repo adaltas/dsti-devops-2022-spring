@@ -2,7 +2,7 @@
 title: DevOps
 authors:
 - Sergei Kudinov <sergei@adaltas.com>
-school: ECE
+school: DSTI
 period: Spring 2022
 feature: ./feature/index.png
 ---

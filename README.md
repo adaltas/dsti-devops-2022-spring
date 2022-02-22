@@ -39,6 +39,8 @@ Navigate inside the [`./courses/devops`](courses/devops) folder to read the raw 
 
 The slides are available on Netlify as a static website - [dsti-devops-2022-spring.netlify.app](https://dsti-devops-2022-spring.netlify.app/).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ed3a500-9119-482f-893d-7e310882de9d/deploy-status)](https://app.netlify.com/sites/dsti-devops-2022-spring/deploys)
+
 ### Build slides locally as a static website
 
 Run the following commands to get the site up and running.
