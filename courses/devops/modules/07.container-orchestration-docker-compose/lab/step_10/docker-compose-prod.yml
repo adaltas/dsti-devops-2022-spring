@@ -1,0 +1,9 @@
+services:
+  web:
+    ports:
+      - 80:8080
+  db:
+    volumes:
+      - db_data_prod:/var/lib/mysql
+volumes:
+    db_data_prod: {}

@@ -10,7 +10,8 @@ Materials for the DevOps course at DSTI.
 3. Continuous Testing | with Node.js
 4. Continuous Integration & Continuous Delivery (CI/CD) | with GitHub Actions and Heroku
 5. Infrastructure as code (IaC) | with Vagrant and Ansible
-6. Containerization | with Docker and Docker Compose
+6. Containerization | with Docker
+7. Containers orchestration | with Docker Compose
 7. Containers orchestration | with Kubernetes
 8. Cloud-native applications and microservice architecture | with Istio
 9. Monitoring | with Prometheus and Grafana

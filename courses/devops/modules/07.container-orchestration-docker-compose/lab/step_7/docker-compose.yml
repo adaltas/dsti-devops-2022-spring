@@ -1,0 +1,23 @@
+services:
+  web:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - ".env"
+    healthcheck:
+      test: curl -f http://localhost:8080/healthz || exit 1
+      interval: 5s
+      retries: 5
+    ports:
+      - "8080:8080"
+  db:
+    env_file:
+      - ".env"
+    image: 'mariadb'
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 20s
+      retries: 10

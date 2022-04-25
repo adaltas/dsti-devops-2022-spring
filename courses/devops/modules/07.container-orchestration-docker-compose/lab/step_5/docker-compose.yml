@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    env_file:
+      - ".env"
+  db:
+    image: 'mariadb'
+    env_file:
+      - ".env"

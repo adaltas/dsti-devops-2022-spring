@@ -1,0 +1,15 @@
+x-env_file: &env_file # x- prefix mandatory for anchoring yaml mappings
+  env_file: 
+    - ".env"
+services:
+  web:
+    build: .
+    depends_on:
+      - db
+    <<: *env_file # Merges the env_file mapping, inset to the << symbol.
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+  db:
+    <<: *env_file # Here too
+    image: 'mariadb'
