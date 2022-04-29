@@ -2,7 +2,7 @@
 
 ## Deadline
 
-<!-- To be set... -->
+June 12th, 2022
 
 ## Opportunities
 
